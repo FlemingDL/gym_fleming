@@ -16,5 +16,6 @@ In your python file enter:
 
 .. code-block::
 
+    import gym
     import gym_fleming
     env = gym.make('taxi_fleming-v0')
