@@ -4,11 +4,17 @@ Fleming Custom Taxi Environment Based on OpenAI Gym
 Installation
 ============
 
-You can perform a minimal install of ``gym`` with:
+Install in your working directory with:
 
 .. code-block::
 
-    git clone https://github.com/openai/gym.git
-    cd gym
+    git clone https://github.com/FlemingDL/gym_fleming.git
+    cd gym_fleming
     pip install -e .
 
+In your python file enter:
+
+.. code-block::
+
+    import gym_fleming
+    env = gym.make('taxi_fleming-v0')
