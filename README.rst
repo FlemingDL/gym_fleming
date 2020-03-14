@@ -12,6 +12,15 @@ Install in your working directory with:
     cd gym_fleming
     pip install -e .
 
+If using Google Colab, enter this at the top of your workbook:
+
+.. code-block::
+
+    !git clone https://github.com/FlemingDL/gym_fleming.git
+    !pip install -e gym_fleming
+
+(For Google Colab, you will need to restart your notebook after the step above (Runtime -> Restart all).
+
 In your python file enter:
 
 .. code-block::
