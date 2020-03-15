@@ -16,6 +16,7 @@ If using Google Colab, enter this at the top of your workbook:
 
 .. code-block::
 
+    !pip install gym
     !git clone https://github.com/FlemingDL/gym_fleming.git
     !pip install -e gym_fleming
 
