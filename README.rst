@@ -12,7 +12,7 @@ Install in your working directory with:
     cd gym_fleming
     pip install -e .
 
-If using Google Colab, enter this at the top of your workbook:
+If using Google Colab or Jupyter Notebook, enter this at the top of your workbook:
 
 .. code-block::
 
