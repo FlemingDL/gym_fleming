@@ -6,11 +6,11 @@ register(
 )
 
 register(
-    id='taxi_fleming-10-by-10',
+    id='taxi_fleming-10x10-v0',
     entry_point='gym_fleming.envs:FlemingTaxiEnv_10x10',
 )
 
 register(
-    id='taxi_fleming-20-by-20',
+    id='taxi_fleming-20x20-v0',
     entry_point='gym_fleming.envs:FlemingTaxiEnv_20x20',
 )
