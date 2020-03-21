@@ -28,4 +28,21 @@ In your python file enter:
 
     import gym
     import gym_fleming
-    env = gym.make('taxi_fleming-v0')
+
+To set the environment for the 5x10 map enter:
+
+.. code-block::
+
+    env = gym.make('taxi_fleming-5x10')
+
+To set the environment for the 10x10 map enter:
+
+.. code-block::
+
+    env = gym.make('taxi_fleming-10x10')
+
+To set the environment for the 20x20 map enter:
+
+.. code-block::
+
+    env = gym.make('taxi_fleming-20x20')
