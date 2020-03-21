@@ -1,7 +1,7 @@
 from gym.envs.registration import register
 
 register(
-    id='taxi_fleming-5x10',
+    id='taxi_fleming-v0',
     entry_point='gym_fleming.envs:FlemingTaxiEnv_5x10',
 )
 

@@ -33,7 +33,7 @@ To set the environment for the 5x10 map enter:
 
 .. code-block::
 
-    env = gym.make('taxi_fleming-5x10')
+    env = gym.make('taxi_fleming-v0')
 
 To set the environment for the 10x10 map enter:
 
