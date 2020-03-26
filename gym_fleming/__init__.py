@@ -11,6 +11,11 @@ register(
 )
 
 register(
+    id='taxi_fleming-15x15-v0',
+    entry_point='gym_fleming.envs:FlemingTaxiEnv_15x15',
+)
+
+register(
     id='taxi_fleming-20x20-v0',
     entry_point='gym_fleming.envs:FlemingTaxiEnv_20x20',
 )
